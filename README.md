@@ -80,7 +80,9 @@ open_ssl_p12_to_pem: [2] Verifying .p12 file...
 # Other verification content...
 # Other verification content...
 
-# Pay attention to the results here.
+# v                                      v
+# v  Pay attention to the results here.  v
+# v                                      v
 
 ---
 New, TLSv1/SSLv3, Cipher is AES256-SHA
