@@ -1,6 +1,9 @@
 # openssl_p12_to_pem
 
-Table of contents
+<details open>
+
+<summary>Table of contents</summary>
+
 - [What does it do?](#what-does-it-do)
 - [Prerequisite](#prerequisite)
 - [Setup](#setup)
@@ -10,6 +13,10 @@ Table of contents
 		- [Option 1: Via utility script](#option-1-via-utility-script)
 		- [Option 2: By hand](#option-2-by-hand)
 	- [Final step: Apply changes](#final-step-apply-changes)
+
+</details>
+
+---
 
 ## What does it do?
 
