@@ -9,10 +9,10 @@
 - [Setup](#setup)
 - [Usage](#usage)
 - [Linking](#linking)
-	- [First step: Know your environment](#first-step-know-your-environment)
-		- [Option 1: Via utility script](#option-1-via-utility-script)
-		- [Option 2: By hand](#option-2-by-hand)
-	- [Final step: Apply changes](#final-step-apply-changes)
+  - [First step: Know your environment](#first-step-know-your-environment)
+    - [Option 1: Via utility script](#option-1-via-utility-script)
+    - [Option 2: By hand](#option-2-by-hand)
+  - [Final step: Apply changes](#final-step-apply-changes)
 
 </details>
 
@@ -59,15 +59,15 @@ Call the newly-installed `openssl_p12_to_pem` command.
 # Call the function and provide an input file name
 # - Include the trailing .p12 extension.
 # - Include a path (relative or absolute) if necessary.
-openssl_p12_to_pem <path/to/your/file>.p12
+openssl_p12_to_pem <path/to/your/file>.p12 <host:port>
 ```
 
 Example:
 
 ```sh
-$ openssl_p12_to_pem ../my-project/aps_cert.p12
+$ openssl_p12_to_pem ../my-project/aps_cert.p12 gateway.push.apple.com:2195
 
-Processing ../my-project/aps_cert.p12 ...
+Processing ../my-project/aps_cert.p12, connecting to gateway.push.apple.com:2195...
 
 open_ssl_p12_to_pem: [1] Creating .pem file from .p12 file...
 
